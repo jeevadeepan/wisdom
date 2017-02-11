@@ -93,6 +93,46 @@ body {
   letter-spacing: -1px;
 }
 
+#testimonies .col-md-5{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#testimonies .col-md-5 img {
+  width: 115px;
+  height: 86px;
+}
+
+#testimonies blockquote {
+  font-style: italic;
+}
+
+#testimonies blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+.featurette p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.featurette .col-md-5 {
+  overflow: hidden;
+}
+
+#recruitment img.center-block, #consultancy img.center-block, #training img.center-block {
+  position: relative;
+  left: 2.4rem;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -124,11 +164,11 @@ body {
   }
 
   .featurette-heading {
-    font-size: 50px;
+    font-size: 3rem;
   }
   
   .featurette-divider {
-    margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    margin: 40px 0; /* Space out the Bootstrap <hr> more */
   }
 }
 
